@@ -1,0 +1,47 @@
+body {
+  font-family: $font-family;
+  font-weight: $regular;
+  font-size: rem-calc(24);
+  line-height: rem-calc(44);
+  color: $dark;
+  background: $white;
+}
+
+p {
+  font-weight: $regular;
+  font-size: rem-calc(24);
+  line-height: rem-calc(44);
+}
+
+h1 {
+  font-size: rem-calc(140);
+  line-height: rem-calc(172);
+  font-weight: $bold;
+}
+
+h2 {
+  font-size: rem-calc(60);
+  line-height: rem-calc(74);
+  font-weight: $bold;
+}
+
+h3 {
+  font-size: rem-calc(42);
+  line-height: rem-calc(52);
+  font-weight: $bold;
+}
+
+h4 {
+  font-size: rem-calc(34);
+  line-height: rem-calc(44);
+  font-weight: $bold;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    color: $dark;
+  }
+}

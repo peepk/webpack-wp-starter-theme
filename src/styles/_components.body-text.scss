@@ -1,0 +1,58 @@
+.c-body-text {
+  width: 100%;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 20px;
+    font-weight: $semibold;
+  }
+
+  h2 {
+    color: $blue;
+  }
+
+  ul,
+  ol {
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .wp-block-columns.has-2-columns {
+    width: 100%;
+  }
+
+  &.blue {
+    p {
+      color: $blue;
+    }
+  }
+}
+
+.c-tabs .c-body-text {
+  h2, h3, h4, h5, p {
+    color: $white;
+  }
+}
+
+.c-body-text--sm {
+  font-size: rem-calc(18);
+  line-height: rem-calc(28);
+
+  p {
+    font-size: rem-calc(18);
+    line-height: rem-calc(28);
+  }
+}
